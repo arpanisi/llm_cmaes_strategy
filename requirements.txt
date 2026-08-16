@@ -1,0 +1,9 @@
+cma>=4.4.4
+numpy>=2.0
+openai>=1.0
+pandas>=2.0
+python-dotenv>=1.0
+PyYAML>=6.0
+requests>=2.30
+yfinance>=1.5
+pytest>=8.0

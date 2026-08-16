@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.ruff_cache/
+
+.env
+
+
+# Downloaded market (OHLCV) + economic (macro) data. The data/ folder is the data
+# source on every machine (including VAS); its contents are regenerable and never
+# committed. The .gitkeep placeholders keep the empty dirs in git; the book
+# subfolders (market/equity, market/crypto) are created automatically on first run.
+data/market/*
+!data/market/.gitkeep
+data/economic/*
+!data/economic/.gitkeep
+
+# Transient CMA-ES logger output (written to a temp dir anyway)
+outcmaes/
+
+# Generated run outputs (summaries, best strategies, live reports)
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,7 @@
+description: "LLM-driven trading-strategy research with CMA-ES parameter optimization, evaluated through walk-forward validation against Yahoo Finance market data and FRED macro data."
+topics:
+  - cma-es
+  - walk-forward-validation
+  - large-language-models
+  - portfolio-construction
+  - log-sharpe
